@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button slot="start" fill="clear" color="primary" [routerLink]="['/places/discover']">
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-button>
+    <ion-title>place details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  
+
+  <ion-button color="primary" (click)="onBookPlace()">
+    Book Place
+  </ion-button>
+</ion-content>

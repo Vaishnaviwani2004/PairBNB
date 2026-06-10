@@ -1,0 +1,387 @@
+[
+  {
+    "id": "p1",
+    "title": "Mountain View Lodge",
+    "description": "A breathtaking retreat nestled in the heart of the Rockies with panoramic mountain views.",
+    "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=85",
+    "price": 299.99
+  },
+  {
+    "id": "p2",
+    "title": "Beach Paradise Resort",
+    "description": "Enjoy the sunny beach and crystal clear waters of this tropical getaway.",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=85",
+    "price": 399.99
+  },
+  {
+    "id": "p3",
+    "title": "City Lights Penthouse",
+    "description": "Experience the vibrant city life and stunning skyline from a luxurious penthouse.",
+    "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=85",
+    "price": 199.99
+  },
+  {
+    "id": "p4",
+    "title": "Tuscan Villa Retreat",
+    "description": "A charming villa surrounded by rolling hills, vineyards, and olive groves in Tuscany.",
+    "imageUrl": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?w=800&q=85",
+    "price": 449.99
+  },
+  {
+    "id": "p5",
+    "title": "Tokyo Skyline Suite",
+    "description": "Immerse yourself in the dazzling neon lights and culture of Tokyo from a modern suite.",
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=85",
+    "price": 349.99
+  },
+  {
+    "id": "p6",
+    "title": "Santorini Cliffside Cottage",
+    "description": "Iconic whitewashed walls, blue domes, and spectacular caldera views in Santorini.",
+    "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=85",
+    "price": 499.99
+  },
+  {
+    "id": "p7",
+    "title": "Amazon Jungle Lodge",
+    "description": "A unique eco-lodge deep in the Amazon rainforest, surrounded by exotic wildlife.",
+    "imageUrl": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=85",
+    "price": 279.99
+  },
+  {
+    "id": "p8",
+    "title": "Sahara Desert Camp",
+    "description": "Sleep under a million stars in a luxurious Bedouin camp in the Sahara Desert.",
+    "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=85",
+    "price": 259.99
+  },
+  {
+    "id": "p9",
+    "title": "Maldives Water Bungalow",
+    "description": "A stunning overwater bungalow with direct access to the turquoise Indian Ocean.",
+    "imageUrl": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=800&q=85",
+    "price": 699.99
+  },
+  {
+    "id": "p10",
+    "title": "Scottish Highland Castle",
+    "description": "Stay like royalty in a historic castle surrounded by misty Scottish Highlands.",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85",
+    "price": 389.99
+  },
+  {
+    "id": "p11",
+    "title": "Bali Rice Terrace Villa",
+    "description": "A serene villa overlooking the iconic emerald-green rice terraces of Ubud, Bali.",
+    "imageUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=85",
+    "price": 229.99
+  },
+  {
+    "id": "p12",
+    "title": "Patagonia Wilderness Camp",
+    "description": "A remote adventure camp at the edge of the world with glacier and mountain views.",
+    "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=85",
+    "price": 319.99
+  },
+  {
+    "id": "p13",
+    "title": "Kyoto Zen Garden Inn",
+    "description": "A traditional Japanese ryokan with peaceful zen gardens and tatami rooms.",
+    "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=85",
+    "price": 289.99
+  },
+  {
+    "id": "p14",
+    "title": "Amalfi Coast Terrace Hotel",
+    "description": "Perched on dramatic cliffs overlooking the sparkling blue Tyrrhenian Sea.",
+    "imageUrl": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=800&q=85",
+    "price": 429.99
+  },
+  {
+    "id": "p15",
+    "title": "New York Loft Experience",
+    "description": "A stylish industrial loft in Manhattan's most vibrant neighborhood.",
+    "imageUrl": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=85",
+    "price": 359.99
+  },
+  {
+    "id": "p16",
+    "title": "Norwegian Fjord Cabin",
+    "description": "A cozy wooden cabin on the edge of a spectacular Norwegian fjord.",
+    "imageUrl": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=85",
+    "price": 339.99
+  },
+  {
+    "id": "p17",
+    "title": "Marrakech Riad Oasis",
+    "description": "A stunning traditional riad with a mosaic courtyard and rooftop terrace in Marrakech.",
+    "imageUrl": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800&q=85",
+    "price": 219.99
+  },
+  {
+    "id": "p18",
+    "title": "Serengeti Safari Tent",
+    "description": "A luxury glamping tent in the heart of the Serengeti, surrounded by the Big Five.",
+    "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=85",
+    "price": 589.99
+  },
+  {
+    "id": "p19",
+    "title": "Iceland Aurora Cabin",
+    "description": "A glass-roofed cabin in Iceland offering spectacular Northern Lights views.",
+    "imageUrl": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=85",
+    "price": 469.99
+  },
+  {
+    "id": "p20",
+    "title": "Paris Haussmann Apartment",
+    "description": "A classic Haussmann apartment steps from the Eiffel Tower with authentic Parisian charm.",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=85",
+    "price": 379.99
+  },
+  {
+    "id": "p21",
+    "title": "Galapagos Eco Resort",
+    "description": "An eco-friendly resort on the Galapagos Islands, home to unique wildlife found nowhere else.",
+    "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=85",
+    "price": 549.99
+  },
+  {
+    "id": "p22",
+    "title": "Dubai Sky Tower Suite",
+    "description": "An ultra-modern suite on the 80th floor with a panoramic view of Dubai's skyline.",
+    "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=85",
+    "price": 799.99
+  },
+  {
+    "id": "p23",
+    "title": "Swiss Alps Chalet",
+    "description": "A picture-perfect alpine chalet surrounded by snow-capped peaks and pristine ski slopes.",
+    "imageUrl": "https://images.unsplash.com/photo-1520208422220-d12a3c588574?w=800&q=85",
+    "price": 519.99
+  },
+  {
+    "id": "p24",
+    "title": "Havana Colonial Mansion",
+    "description": "A beautifully restored colonial mansion in the heart of vibrant, colorful Havana.",
+    "imageUrl": "https://images.unsplash.com/photo-1500759285222-a95626b934cb?w=800&q=85",
+    "price": 189.99
+  },
+  {
+    "id": "p25",
+    "title": "Great Barrier Reef Retreat",
+    "description": "A beachfront retreat with direct access to snorkeling the Great Barrier Reef.",
+    "imageUrl": "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=85",
+    "price": 459.99
+  },
+  {
+    "id": "p26",
+    "title": "Phuket Hillside Infinity Pool",
+    "description": "A stunning hillside villa with a private infinity pool overlooking Phang Nga Bay.",
+    "imageUrl": "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=800&q=85",
+    "price": 329.99
+  },
+  {
+    "id": "p27",
+    "title": "Cape Town Vineyard Estate",
+    "description": "A luxurious estate in the heart of South Africa's wine country with Table Mountain views.",
+    "imageUrl": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=85",
+    "price": 369.99
+  },
+  {
+    "id": "p28",
+    "title": "Petra Desert Cave Hotel",
+    "description": "A unique cave hotel carved into the ancient rose-red rock near Petra, Jordan.",
+    "imageUrl": "https://images.unsplash.com/photo-1548786811-dd6e453ccca7?w=800&q=85",
+    "price": 249.99
+  },
+  {
+    "id": "p29",
+    "title": "Rio Beachfront Penthouse",
+    "description": "A spectacular penthouse overlooking Copacabana Beach and the iconic Sugarloaf Mountain.",
+    "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=85",
+    "price": 409.99
+  },
+  {
+    "id": "p30",
+    "title": "Machu Picchu Sacred Valley Lodge",
+    "description": "An intimate lodge nestled in the Sacred Valley with views of ancient Incan ruins.",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&q=85",
+    "price": 309.99
+  },
+  {
+    "id": "p31",
+    "title": "Queenstown Adventure Chalet",
+    "description": "A modern chalet in New Zealand's adventure capital with Lake Wakatipu views.",
+    "imageUrl": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=85",
+    "price": 279.99
+  },
+  {
+    "id": "p32",
+    "title": "Vienna Imperial Suite",
+    "description": "A grand imperial suite in a historic Viennese palace, dripping with old-world elegance.",
+    "imageUrl": "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&q=85",
+    "price": 439.99
+  },
+  {
+    "id": "p33",
+    "title": "Mayan Jungle Treehouses",
+    "description": "Elevated treehouses deep in the Yucatan jungle, steps from ancient Mayan ruins.",
+    "imageUrl": "https://images.unsplash.com/photo-1482192505345-5852343f7ae4?w=800&q=85",
+    "price": 239.99
+  },
+  {
+    "id": "p34",
+    "title": "Cinque Terre Cliffside B&B",
+    "description": "A charming bed and breakfast perched on the colorful cliffs of Cinque Terre, Italy.",
+    "imageUrl": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?w=800&q=85",
+    "price": 269.99
+  },
+  {
+    "id": "p35",
+    "title": "Banff Lake Louise Retreat",
+    "description": "A cozy retreat overlooking the impossibly turquoise waters of Lake Louise in Canada.",
+    "imageUrl": "https://images.unsplash.com/photo-1561134643-668f9057cce4?w=800&q=85",
+    "price": 349.99
+  },
+  {
+    "id": "p36",
+    "title": "Zanzibar Spice Island Resort",
+    "description": "A tropical paradise on the Spice Island, with white sand beaches and turquoise lagoons.",
+    "imageUrl": "https://images.unsplash.com/photo-1586500036706-41963de24d8b?w=800&q=85",
+    "price": 319.99
+  },
+  {
+    "id": "p37",
+    "title": "Prague Old Town Apartment",
+    "description": "A beautifully decorated apartment in the heart of Prague's fairy-tale Old Town.",
+    "imageUrl": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=85",
+    "price": 179.99
+  },
+  {
+    "id": "p38",
+    "title": "Angkor Wat Sunrise Villa",
+    "description": "A tranquil villa offering exclusive sunrise views of the legendary Angkor Wat temple complex.",
+    "imageUrl": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=85",
+    "price": 209.99
+  },
+  {
+    "id": "p39",
+    "title": "Paros Cycladic Retreat",
+    "description": "A whitewashed cycladic retreat with stunning Aegean Sea views on the island of Paros.",
+    "imageUrl": "https://images.unsplash.com/photo-1601581875309-fafbf2d3ed3a?w=800&q=85",
+    "price": 359.99
+  },
+  {
+    "id": "p40",
+    "title": "Banteay Srei Rainforest Camp",
+    "description": "A luxury rainforest camp near Cambodia's ancient jungle temples and wildlife.",
+    "imageUrl": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=800&q=85",
+    "price": 229.99
+  },
+  {
+    "id": "p41",
+    "title": "Lapland Glass Igloo",
+    "description": "Sleep in a heated glass igloo in Finnish Lapland and wake up to the Aurora Borealis.",
+    "imageUrl": "https://images.unsplash.com/photo-1520769945061-0a448c463865?w=800&q=85",
+    "price": 529.99
+  },
+  {
+    "id": "p42",
+    "title": "Cappadocia Cave Suite",
+    "description": "An extraordinary cave suite carved into the volcanic rock formations of Cappadocia, Turkey.",
+    "imageUrl": "https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=800&q=85",
+    "price": 299.99
+  },
+  {
+    "id": "p43",
+    "title": "Hawaii Volcano Park Bungalow",
+    "description": "A secluded bungalow near the active volcanoes of Hawaii's Big Island.",
+    "imageUrl": "https://images.unsplash.com/photo-1542259009477-d625272157b7?w=800&q=85",
+    "price": 389.99
+  },
+  {
+    "id": "p44",
+    "title": "Barcelona Gothic Quarter Flat",
+    "description": "A stylish flat in the labyrinthine Gothic Quarter, steps from La Sagrada Familia.",
+    "imageUrl": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=85",
+    "price": 249.99
+  },
+  {
+    "id": "p45",
+    "title": "Himalayan Monastery Guesthouse",
+    "description": "A peaceful guesthouse in the Himalayas, offering meditation retreats and mountain treks.",
+    "imageUrl": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=800&q=85",
+    "price": 159.99
+  },
+  {
+    "id": "p46",
+    "title": "Bordeaux Chateau Wine Estate",
+    "description": "Stay in a grand chateau in the Bordeaux wine region with private vineyard tours.",
+    "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=85",
+    "price": 479.99
+  },
+  {
+    "id": "p47",
+    "title": "Phi Phi Island Hideaway",
+    "description": "A secluded island hideaway on Koh Phi Phi with dramatic limestone cliffs and clear waters.",
+    "imageUrl": "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=800&q=85",
+    "price": 289.99
+  },
+  {
+    "id": "p48",
+    "title": "Namibia Desert Dune Camp",
+    "description": "A remote luxury camp among the world's tallest orange sand dunes in Sossusvlei.",
+    "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=85",
+    "price": 419.99
+  },
+  {
+    "id": "p49",
+    "title": "Lombok Hidden Waterfall Cabin",
+    "description": "A jungle cabin near Lombok's hidden waterfalls, far from the tourist crowds.",
+    "imageUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=85",
+    "price": 169.99
+  },
+  {
+    "id": "p50",
+    "title": "Yosemite Valley Glamping",
+    "description": "Luxury glamping in Yosemite Valley with views of El Capitan and Half Dome.",
+    "imageUrl": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=800&q=85",
+    "price": 329.99
+  },
+  {
+    "id": "p51",
+    "title": "Lisbon Fado Townhouse",
+    "description": "A charming townhouse in Lisbon's Alfama district, the birthplace of soulful Fado music.",
+    "imageUrl": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=85",
+    "price": 199.99
+  },
+  {
+    "id": "p52",
+    "title": "Ko Samui Jungle Pool Villa",
+    "description": "A private pool villa hidden in the tropical jungle of Ko Samui, Thailand.",
+    "imageUrl": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=85",
+    "price": 339.99
+  },
+  {
+    "id": "p53",
+    "title": "Cotswolds Country Cottage",
+    "description": "A quintessential honey-stone cottage in the rolling English countryside of the Cotswolds.",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=85",
+    "price": 259.99
+  },
+  {
+    "id": "p54",
+    "title": "Oman Wadi Desert Fort",
+    "description": "A restored desert fort in Oman's dramatic Wadi Rum-like landscape of canyons and wadis.",
+    "imageUrl": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=85",
+    "price": 309.99
+  },
+  {
+    "id": "p55",
+    "title": "Vancouver Island Forest Cabin",
+    "description": "A secluded cedar cabin in the old-growth forests of Vancouver Island, British Columbia.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=85",
+    "price": 219.99
+  }
+]
