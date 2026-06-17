@@ -8,11 +8,20 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+<ion-segment value="all" class="ion-padding"  (ionChange)="onSegmentChange($event)" >
+  <ion-segment-button value="all">
+    All Places
+  </ion-segment-button>
+  <ion-segment-button value="bookable">
+    Bookable Places
+  </ion-segment-button>
+</ion-segment>
+
   <ion-grid class="ion-padding">
     <ion-row >
-      <ion-col size="12" size-md="3" offset-md="0" *ngFor="let place of loadedPlaces">
+      <ion-col size="12" size-lg="3" size-md="4" offset-md="0" *ngFor="let place of loadedPlaces">
         <ion-card >
-          <img class="card-image" [src]="place.imageUrl" alt="{{ place.title }}" />
+          <ion-img class="card-image" [src]="place.imageUrl" alt="{{ place.title }}" />
           <ion-card-header>
             <ion-card-title>{{ place.title }}</ion-card-title>
             <ion-card-subtitle>{{ place.description }}</ion-card-subtitle>
