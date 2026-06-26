@@ -15,6 +15,7 @@ offers: Place[] = [];
 
   ngOnInit() {
     this.offers = this.placesService.places;
+    console.log('Loaded offers:', this.offers);
   }
 
   onEdit(id: string, slidingItem: any) {

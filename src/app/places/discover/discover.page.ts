@@ -11,7 +11,6 @@ import { MenuController, SegmentChangeEventDetail } from '@ionic/angular';
 })
 export class DiscoverPage implements OnInit {
   loadedPlaces: Place[] = [];
-  isLoading = false;
 
   constructor(
     private placesService: PlacesService,
@@ -19,17 +18,7 @@ export class DiscoverPage implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.isLoading = true;
-    this.placesService.fetchPlaces().subscribe({
-      next: (places) => {
-        this.loadedPlaces = places;
-        this.isLoading = false;
-      },
-      error: (err) => {
-        console.error('Failed to load places:', err);
-        this.isLoading = false;
-      }
-    });
+    this.loadedPlaces = this.placesService.places;
   }
 
   clicked(place: Place) {
@@ -37,6 +26,7 @@ export class DiscoverPage implements OnInit {
   }
 
   onSegmentChange(event: CustomEvent<SegmentChangeEventDetail>) {
+    console.log('Segment changed:', event.detail);
     const value = event.detail.value;
     if (value === 'all') {
       this.loadedPlaces = this.placesService.places;

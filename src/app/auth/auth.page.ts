@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Auth } from './auth';
 import { Router } from '@angular/router';
 import { LoadingController } from '@ionic/angular';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-auth',
@@ -35,5 +36,11 @@ export class AuthPage implements OnInit {
     }, 1500);
     });
     // Simulate a delay for login
+  }
+
+
+   
+  onSubmit(form: NgForm) {
+    console.log(form);
   }
 }

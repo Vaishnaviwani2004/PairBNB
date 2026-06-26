@@ -5,11 +5,53 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-  <!-- <ion-spinner  *ngIf="isLoading" name="crescent"></ion-spinner>
-   <div *ngIf="!isLoading">
-    <p>Please log in to access the app.</p>
-  </div> -->
-  <ion-button color="primary" (click)="onLogin()">
-    Login
-  </ion-button>
+  <form action="" #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-sm="6" offset-sm="3">
+        <ion-list>
+          <ion-item>
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" ngModel name="email" required
+            email #email="ngModel"
+            ></ion-input>
+            <p  *ngIf="email.invalid">
+              Please enter a valid email address.
+            </p>
+          </ion-item>
+
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" ngModel name="password" required minlength="6" #password="ngModel"></ion-input>
+            <p class="ion-invalid.ion-touched" *ngIf="password.invalid && password.touched">
+              Password must be at least 6 characters long.
+            </p>
+          </ion-item>
+        </ion-list>
+
+
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size-sm="6" offset-sm="3">
+
+
+        <ion-button type="button" color="primary" fill="clear" expand="block">
+          Switch to signup
+        </ion-button>
+        <ion-button type="submit" color="primary" expand="block" (click)="onLogin()">
+          Login
+        </ion-button>
+
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+</form>
+
+
 </ion-content>
