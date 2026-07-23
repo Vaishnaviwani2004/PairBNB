@@ -1,8 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-button slot="start" fill="clear" color="primary" [routerLink]="['/places/discover']">
-      <ion-icon name="arrow-back"></ion-icon>
-    </ion-button>
+    <ion-buttons slot="start">
+      <ion-back-button
+        [defaultHref]="'/places'"
+      ></ion-back-button>
+    </ion-buttons>
     <ion-title>place details</ion-title>
   </ion-toolbar>
 </ion-header>

@@ -2,12 +2,13 @@ import { Component, OnInit, Input} from '@angular/core';
 import { ModalController, IonicModule } from '@ionic/angular';
 import { Place } from 'src/app/places/place.model';
 import { IonHeader, IonButton, IonIcon } from "@ionic/angular/standalone";
+import { FormsModule } from "@angular/forms";
 
 @Component({
   selector: 'app-create-booking',
   templateUrl: './create-booking.component.html',
   styleUrls: ['./create-booking.component.scss'],
-  imports: [IonicModule],
+  imports: [IonicModule, FormsModule],
 })
 export class CreateBookingComponent  implements OnInit {
 
